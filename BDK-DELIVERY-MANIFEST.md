@@ -4,19 +4,36 @@ Generated product baseline tracked by BDK.
 
 ## Current state
 - Repository: TheSeixas/bia-burckle-mvp
-- Baseline commit: 6710474
+- Candidate: mvp-v2-client-ready
 - Delivery type: static ecommerce MVP
-- Local-only runtime: yes
-- External asset dependencies: yes (origin captures referenced by generated HTML)
-- Commercial readiness: NOT CERTIFIED
+- Commercial readiness: VALIDATION CANDIDATE — NOT YET CERTIFIED
+- Purpose: client-style visual validation
+- External demonstration imagery: yes; clearly labelled as demonstrative/non-official
 
-## Required next gates
-1. Replace external image captures with owned/licensed local assets.
-2. Validate every local route and asset after replacement.
-3. Run responsive and error-state checks.
-4. Run security/privacy review.
-5. Verify cart/personalization behavior end-to-end.
-6. Package and deliver only after evidence is recorded.
+## V2 changes
+- Editorial beachwear visual direction
+- Stronger typography and whitespace hierarchy
+- Campaign-style hero
+- Merchandising/editorial product presentation
+- Personalization positioned as a primary proposition
+- Search overlay
+- Persistent cart count
+- Responsive mobile layout
+- Trust/fit/purchase-friction messaging
+
+## Validation gates
+1. Desktop visual review
+2. Mobile visual review
+3. Route/navigation review
+4. Search review
+5. Category/product review
+6. Personalization review
+7. Cart review
+8. Empty/error states
+9. Accessibility basics
+10. Performance/perceived performance
+11. Independent UX/design review
+12. Independent functional QA
 
 ## Anti-false-pass
-This manifest does not certify commercial readiness. A successful Git push only proves repository delivery, not product acceptance.
+A successful Git commit, build, or page load does **not** certify commercial readiness. This candidate is ready for Eric's visual/product validation only after the gates above are evidenced.
